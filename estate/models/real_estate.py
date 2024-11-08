@@ -36,5 +36,4 @@ class RealEstate(models.Model):
     bedrooms = fields.Integer()
     living_area = fields.Integer()
 
-    property_type_id = fields.Many2one("real.estate.type", string="NameType")
-    
+    property_type_id = fields.Many2one("real.estate.type", string="NameType")    
