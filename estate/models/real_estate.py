@@ -37,3 +37,4 @@ class RealEstate(models.Model):
     living_area = fields.Integer()
 
     property_type_id = fields.Many2one("real.estate.type", string="NameType")
+    
